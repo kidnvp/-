@@ -66,9 +66,9 @@ export const botConfig = {
 
     // Embed colors by application status.
     statusColors: {
-      pending: "#FFFFFF",
-      approved: "#FFFFFF",
-      denied: "#FFFFFF",
+      pending: "#FFA500",
+      approved: "#00FF00",
+      denied: "#FF0000",
     },
 
     // How long users must wait before submitting another application (hours).
@@ -95,7 +95,7 @@ export const botConfig = {
       secondary: "#2F3136",
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#FFFFFF",
+      success: "#57F287",
       error: "#ED4245",
       warning: "#FEE75C",
       info: "#3498DB",
@@ -106,20 +106,20 @@ export const botConfig = {
       gray: "#99AAB5",
 
       // Discord-style palette shortcuts.
-      blurple: "#FFFFFF",
-      green: "#FFFFFF",
-      yellow: "#FFFFFF",
-      fuchsia: "#FFFFFF",
-      red: "#FFFFFF",
-      black: "#FFFFFF",
+      blurple: "#9B59B6",
+      green: "#2F3136",
+      yellow: "#FEE75C",
+      fuchsia: "#EB459E",
+      red: "#ED4245",
+      black: "#000000",
 
       // Feature-specific colors.
       giveaway: {
-        active: "#FFFFFF",
-        ended: "#EDFFFFFF4245",
+        active: "#57F287",
+        ended: "#ED4245",
       },
       ticket: {
-        open: "#FFFFFF",
+        open: "#57F287",
         claimed: "#FAA61A",
         closed: "#ED4245",
         pending: "#99AAB5",
