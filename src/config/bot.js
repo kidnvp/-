@@ -66,9 +66,9 @@ export const botConfig = {
 
     // Embed colors by application status.
     statusColors: {
-      pending: "#FFA500",
-      approved: "#00FF00",
-      denied: "#FF0000",
+      pending: "#FFFFFF",
+      approved: "#FFFFFF",
+      denied: "#FFFFFF",
     },
 
     // How long users must wait before submitting another application (hours).
@@ -106,7 +106,7 @@ export const botConfig = {
       gray: "#99AAB5",
 
       // Discord-style palette shortcuts.
-      blurple: "#5865F2",
+      blurple: "#9B59B6",
       green: "#57F287",
       yellow: "#FEE75C",
       fuchsia: "#EB459E",
@@ -306,7 +306,7 @@ export const botConfig = {
       defaultCriteria: "none",
 
       // Days used when `defaultCriteria` is `account_age`.
-      defaultAccountAgeDays: 7,
+      defaultAccountAgeDays: 1,
 
       // Member count threshold used when `defaultCriteria` is `server_size`.
       // Example: 1000 means auto-verify if server has fewer than 1000 members.
@@ -318,7 +318,7 @@ export const botConfig = {
       maxAccountAge: 365,
 
       // If true, user receives a DM after verification.
-      sendDMNotification: true,
+      sendDMNotification: false,
 
       // Human-readable descriptions for each criteria mode.
       criteria: {
